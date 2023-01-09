@@ -127,10 +127,10 @@ for po in pole_Vec:
     if F==0:
         my_color='g'
         ax.plot(po.x,po.y,color=my_color)
-    ax.set_xlabel('x')
-    ax.set_ylabel('y')
-    ax.legend()
-    plt.show()
+ax.set_xlabel('x')
+ax.set_ylabel('y')
+ax.legend()
+plt.show()
 """
 
 
